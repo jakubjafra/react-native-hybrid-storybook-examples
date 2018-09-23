@@ -1,0 +1,30 @@
+{
+  "name": "react-native-hybrid-storybook-example-minimal-expo",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "^30.0.0",
+    "react-native-hybrid-storybook": "../react-native-hybrid-storybook",
+    "react-native-scripts": "1.11.1",
+    "react-test-renderer": "^16.5.2"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c ./node_modules/react-native-hybrid-storybook/.storybook",
+    "start": "exp r"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "react-native-hybrid-storybook": {
+    "expo": true,
+    "magic": {
+      "autoResolveStories": true
+    }
+  },
+  "dependencies": {
+    "expo": "^30.0.1",
+    "react": "^16.5.2",
+    "react-native": "0.55.4"
+  }
+}

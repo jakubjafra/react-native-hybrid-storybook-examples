@@ -1,0 +1,3 @@
+[submodule "react-native-hybrid-storybook"]
+	path = react-native-hybrid-storybook
+	url = git@bitbucket.org:jakub-jafra/react-native-hybrid-storybook.git
