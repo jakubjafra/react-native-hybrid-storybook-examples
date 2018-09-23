@@ -21,8 +21,8 @@
     "expo": true
   },
   "devDependencies": {
+    "react-native-hybrid-storybook": "../react-native-hybrid-storybook",
     "babel-core": "^6.26.3",
-    "babel-runtime": "^6.26.0",
-    "react-native-hybrid-storybook": "../react-native-hybrid-storybook"
+    "babel-runtime": "^6.26.0"
   }
 }
