@@ -1,0 +1,3 @@
+rootProject.name = 'rninit'
+
+include ':app'
