@@ -10,3 +10,6 @@ Minimal [CRNA](https://github.com/react-community/create-react-native-app) app u
 
 ##### `crna`
 Newest (as of 22/09/2018) [CRNA](https://github.com/react-community/create-react-native-app) app created; with [Storybook's default react-native integration](https://github.com/storybooks/storybook/tree/master/app/react-native).
+
+##### `rninit`
+Application created with use of [`react-native init`](https://facebook.github.io/react-native/docs/getting-started.html#creating-a-new-application); with [Storybook's default react-native integration](https://github.com/storybooks/storybook/tree/master/app/react-native).

@@ -1,0 +1,30 @@
+{
+  "name": "rninit",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
+    "storybook-native-device": "REACT_NATIVE_STORYBOOK=true node node_modules/react-native/local-cli/cli.js start",
+    "storybook-native": "node ./node_modules/@storybook/react-native/dist/bin/storybook-start.js -p 7007 -c ./node_modules/react-native-hybrid-storybook/src/native/storybook"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "add": "^2.0.6",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-hybrid-storybook": "../react-native-hybrid-storybook/"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.46.0",
+    "react-test-renderer": "16.5.0",
+    "schedule": "0.4.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
