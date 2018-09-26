@@ -11,7 +11,7 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
-    "storybook-build": "build-storybook -c ./node_modules/react-native-hybrid-storybook/src/web/storybook -o .out",
+    "storybook-build": "build-storybook -c ./node_modules/react-native-hybrid-storybook/src/web/storybook -o output",
     "start": "exp r"
   },
   "jest": {
