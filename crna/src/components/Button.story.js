@@ -1,15 +1,50 @@
 import React from 'react';
 import {
     storiesOf,
-    // fullScreenHostDecorator,
+    fullScreenHostDecorator,
 } from 'react-native-hybrid-storybook';
+import { action } from '@storybook/addon-actions';
+import { text } from '@storybook/addon-knobs/react';
+
 import Button from './Button';
 
 storiesOf('Button', module)
-    // .addDecorator(fullScreenHostDecorator)
+    .addWithChapters('Story with chapters', {
+        subtitle: 'Story subtitle',
+        info: 'Story info test **with formatting** ;)',
+        chapters: [
+            {
+                title: 'Chapter title',
+                subtitle: 'Chapter subtitle',
+                info: `
+                    Let\'s render something!
+                    
+                    \`\`\`
+                    TEST
+                    \`\`\`
+                `,
+                sections: [
+                    {
+                        title: 'Section title',
+                        subtitle: 'Section subtitle',
+                        info: 'Section info',
+                        sectionFn: () => (
+                            <Button
+                                onClick={action('onClick')}
+                                title={text('title', 'Test button')}
+                            />
+                        ),
+                    }
+                ]
+            }
+        ]
+    });
+
+storiesOf('Button', module)
+    .addDecorator(fullScreenHostDecorator)
     .add('Example', () => (
-        <Button title="Test button" />
-    ))
-    .add('Example 2', () => (
-        <Button title="Test button 2" />
+        <Button
+            onClick={action('onClick')}
+            title={text('title', 'Test button')}
+        />
     ));
