@@ -543,7 +543,7 @@
     react-addons-create-fragment "^15.5.3"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-knobs@^3.4.6":
+"@storybook/addon-knobs@^3.4.11", "@storybook/addon-knobs@^3.4.6":
   version "3.4.11"
   resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.4.11.tgz#13ca0c73f19c0a3fda1a1d1ff07ef00fa3a914b3"
   dependencies:
@@ -8602,26 +8602,11 @@ react-native-gesture-handler@1.0.6:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
-react-native-hybrid-storybook@../react-native-hybrid-storybook:
-  version "0.1.0"
-  dependencies:
-    "@storybook/addon-actions" "^3.4.11"
-    "@storybook/addon-options" "^3.4.11"
-    "@storybook/addons" "^3.4.11"
-    "@storybook/react" "^3.4.11"
-    "@storybook/react-native" "^3.4.11"
-    prop-types "^15.6.2"
-    react-art "^16.5.2"
-    react-dom "^16.5.2"
-    react-native-web "^0.9.0"
-    react-storybook-addon-chapters "^2.1.8"
-    storybook-addon-jsx "^5.4.0"
-    storybook-host "^5.0.0"
-
 react-native-hybrid-storybook@../react-native-hybrid-storybook/:
   version "0.1.0"
   dependencies:
     "@storybook/addon-actions" "^3.4.11"
+    "@storybook/addon-knobs" "^3.4.11"
     "@storybook/addon-options" "^3.4.11"
     "@storybook/addons" "^3.4.11"
     "@storybook/react" "^3.4.11"

@@ -1,15 +1,16 @@
 import React from 'react';
 import {
     storiesOf,
-    // fullScreenHostDecorator,
 } from 'react-native-hybrid-storybook';
+import { action } from '@storybook/addon-actions';
+import { text } from '@storybook/addon-knobs';
+
 import Button from './Button';
 
 storiesOf('Button', module)
-    // .addDecorator(fullScreenHostDecorator)
     .add('Example', () => (
-        <Button title="Test button" />
-    ))
-    .add('Example 2', () => (
-        <Button title="Test button 2" />
+        <Button
+            onClick={action('onClick')}
+            title={text('title', 'Test button')}
+        />
     ));
