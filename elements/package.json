@@ -1,0 +1,25 @@
+{
+  "name": "empty-project-template",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook"
+  },
+  "dependencies": {
+    "expo": "^30.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-native-elements": "^1.0.0-beta5",
+    "react-native-hybrid-storybook": "../react-native-hybrid-storybook/"
+  },
+  "react-native-hybrid-storybook": {
+    "expo": true,
+    "magic": {
+      "autoResolveStories": true
+    }
+  }
+}
