@@ -17,9 +17,6 @@
     "react-native": "0.55.4",
     "react-native-scripts": "^2.0.1"
   },
-  "react-native-hybrid-storybook": {
-    "expo": true
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",

@@ -18,7 +18,6 @@
     "preset": "jest-expo"
   },
   "react-native-hybrid-storybook": {
-    "expo": true,
     "magic": {
       "autoResolveStories": true
     }

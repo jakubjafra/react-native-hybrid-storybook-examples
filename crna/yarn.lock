@@ -231,7 +231,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-proposal-class-properties@^7.0.0-beta":
+"@babel/plugin-proposal-class-properties@^7.0.0-beta", "@babel/plugin-proposal-class-properties@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.1.0.tgz#9af01856b1241db60ec8838d84691aa0bd1e8df4"
   integrity sha512-/PCJWN+CKt5v1xcGn4vnuu13QDoV+P7NcICP44BoonAJoPSGwVkgrXihFIQGiEjjPlUDBIw1cM7wYFLARS2/hw==
@@ -1475,6 +1475,35 @@ babel-plugin-check-es2015-constants@^6.22.0, babel-plugin-check-es2015-constants
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-dev-expression@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-dev-expression/-/babel-plugin-dev-expression-0.2.1.tgz#d4a7beefefbb50e3f2734990a82a2486cf9eb9ee"
+  integrity sha1-1Ke+7++7UOPyc0mQqCokhs+eue4=
+
+babel-plugin-expo-web@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/babel-plugin-expo-web/-/babel-plugin-expo-web-0.0.12.tgz#14df4faebe309449750814737d026989f43b4f98"
+  integrity sha512-CcNweRKs5IM2pM6JzDmaDten0yGZin6yz1eytnoaCiAnDhc9lNToRZumpd+9Vdu9Hp9TqOX3FwOxv2AIlWvQ+A==
+
+babel-plugin-expo-web@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/babel-plugin-expo-web/-/babel-plugin-expo-web-0.0.14.tgz#bcd0209aadaf0693734a67cdbf3eb10d5be79cc0"
+  integrity sha512-qKxJOf0bqjQ6BrJRCQXQwbfVPtQeNP6Y/IWQO8P+J7t6mMqYV5re3c3t5gbEMHdf7lxHOJtegG4BmPMXtuG40w==
+
+babel-plugin-extension-resolver-web@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/babel-plugin-extension-resolver-web/-/babel-plugin-extension-resolver-web-0.1.5.tgz#59b2cca039d2d74abbb9bfcf20206293c4ee0634"
+  integrity sha1-WbLMoDnS10q7ub/PICBik8TuBjQ=
+  dependencies:
+    resolve "^1.5.0"
+
+babel-plugin-extension-resolver-web@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-extension-resolver-web/-/babel-plugin-extension-resolver-web-0.2.1.tgz#a3cbf7f068a4e24efd44c315dbf64adb4a0e2759"
+  integrity sha1-o8v38Gik4k79RMMV2/ZK20oOJ1k=
+  dependencies:
+    resolve "^1.5.0"
+
 babel-plugin-external-helpers@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-external-helpers/-/babel-plugin-external-helpers-6.22.0.tgz#2285f48b02bd5dede85175caf8c62e86adccefa1"
@@ -1575,6 +1604,17 @@ babel-plugin-module-resolver@^2.3.0, babel-plugin-module-resolver@^2.7.1:
     glob "^7.1.1"
     resolve "^1.2.0"
 
+babel-plugin-module-resolver@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-module-resolver/-/babel-plugin-module-resolver-3.1.1.tgz#881cf67e3d4b8400d5eaaefc1be44d2dc1fe404f"
+  integrity sha512-1Q77Al4ydp6nYApJ7sQ2fmgz30WuQgJZegIYuyOdbdpxenB/bSezQ3hDPsumIXGlUS4vUIv+EwFjzzXZNWtARw==
+  dependencies:
+    find-babel-config "^1.1.0"
+    glob "^7.1.2"
+    pkg-up "^2.0.0"
+    reselect "^3.0.1"
+    resolve "^1.4.0"
+
 babel-plugin-react-docgen@^1.9.0:
   version "1.9.0"
   resolved "http://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.9.0.tgz#2e79aeed2f93b53a172398f93324fdcf9f02e01f"
@@ -1583,6 +1623,16 @@ babel-plugin-react-docgen@^1.9.0:
     babel-types "^6.24.1"
     lodash "^4.17.0"
     react-docgen "^3.0.0-beta11"
+
+babel-plugin-react-native-web@^0.5.3:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.5.4.tgz#6f1ec0232d8d7a18923297399781f448c9a7927e"
+  integrity sha512-DOEoG21JPZHokX0wNwUb6Ji4iWpLtw7zVaauSrUhOwuj4Z187cH+yUBfvmkKZBJDBXPV62HKQLbprqsY0bCauw==
+
+babel-plugin-react-native-web@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.9.1.tgz#d7f6cbd39ff540e2ef92690a6394be4ef733dacf"
+  integrity sha512-FwMPaaM7T5I1FCpyF4y5Cb6th6HuJU6btl+TGSLstIg7o6TKtDsRfi59ejWkfFa2OOIIF6fKjFJb3FtlgFrmYw==
 
 babel-plugin-react-transform@2.0.2:
   version "2.0.2"
@@ -1658,7 +1708,7 @@ babel-plugin-syntax-jsx@^6.3.13, babel-plugin-syntax-jsx@^6.5.0, babel-plugin-sy
   resolved "http://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
   integrity sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=
 
-babel-plugin-syntax-object-rest-spread@^6.8.0:
+babel-plugin-syntax-object-rest-spread@^6.13.0, babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
   resolved "http://registry.npmjs.org/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
   integrity sha1-/WU28rzhODb/o6VFjEkDpZe7O/U=
@@ -2238,6 +2288,19 @@ babel-preset-minify@^0.3.0:
     babel-plugin-transform-simplify-comparison-operators "^6.9.0"
     babel-plugin-transform-undefined-to-void "^6.9.0"
     lodash.isplainobject "^4.0.6"
+
+babel-preset-react-native-web-expo@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/babel-preset-react-native-web-expo/-/babel-preset-react-native-web-expo-0.1.3.tgz#e3f91860bb35c371ded728342a02d353bb7c4b13"
+  integrity sha1-4/kYYLs1w3He1yg0KgLTU7t8SxM=
+  dependencies:
+    babel-plugin-dev-expression "^0.2.1"
+    babel-plugin-expo-web "^0.0.12"
+    babel-plugin-extension-resolver-web "^0.1.5"
+    babel-plugin-module-resolver "^3.1.0"
+    babel-plugin-react-native-web "^0.5.3"
+    babel-preset-env "^1.6.1"
+    babel-preset-react-native "^4.0.0"
 
 babel-preset-react-native@1.9.0:
   version "1.9.0"
@@ -4574,7 +4637,7 @@ finalhandler@1.1.1:
     statuses "~1.4.0"
     unpipe "~1.0.0"
 
-find-babel-config@^1.0.1:
+find-babel-config@^1.0.1, find-babel-config@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/find-babel-config/-/find-babel-config-1.1.0.tgz#acc01043a6749fec34429be6b64f542ebb5d6355"
   integrity sha1-rMAQQ6Z0n+w0Qpvmtk9ULrtdY1U=
@@ -7100,6 +7163,13 @@ pkg-dir@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+pkg-up@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"
+  integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
+  dependencies:
+    find-up "^2.1.0"
+
 plist@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/plist/-/plist-2.0.1.tgz#0a32ca9481b1c364e92e18dc55c876de9d01da8b"
@@ -7875,12 +7945,18 @@ react-native-gesture-handler@1.0.6:
 react-native-hybrid-storybook@../react-native-hybrid-storybook/:
   version "0.1.0"
   dependencies:
+    "@babel/plugin-proposal-class-properties" "^7.1.0"
     "@storybook/addon-actions" "^3.4.11"
     "@storybook/addon-knobs" "^3.4.11"
     "@storybook/addon-options" "^3.4.11"
     "@storybook/addons" "^3.4.11"
     "@storybook/react" "^3.4.11"
     "@storybook/react-native" "^3.4.11"
+    babel-plugin-expo-web "^0.0.14"
+    babel-plugin-extension-resolver-web "^0.2.1"
+    babel-plugin-react-native-web "^0.9.1"
+    babel-plugin-syntax-object-rest-spread "^6.13.0"
+    babel-preset-react-native-web-expo "^0.1.3"
     lodash.merge "^4.6.1"
     prop-types "^15.6.2"
     react-art "^16.5.2"
@@ -8375,6 +8451,11 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
+reselect@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
+  integrity sha1-79qpjqdFEyTQkrKyFjpqHXqaIUc=
+
 resolve-dir@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/resolve-dir/-/resolve-dir-1.0.1.tgz#79a40644c362be82f26effe739c9bb5382046f43"
@@ -8393,7 +8474,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.1.6, resolve@^1.2.0, resolve@^1.3.2, resolve@^1.5.0, resolve@^1.8.1:
+resolve@^1.1.6, resolve@^1.2.0, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.8.1.tgz#82f1ec19a423ac1fbd080b0bab06ba36e84a7a26"
   integrity sha512-AicPrAC7Qu1JxPCZ9ZgCZlY35QgFnNqc+0LtbRNxnVw4TXvjQ72wnuL9JQcEBgXkI9JM8MsT9kaQoHcpCRJOYA==
