@@ -7,7 +7,8 @@
     "test": "jest",
     "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
     "storybook-native-device": "REACT_NATIVE_STORYBOOK=true node node_modules/react-native/local-cli/cli.js start",
-    "storybook-native": "node ./node_modules/@storybook/react-native/dist/bin/storybook-start.js -p 7007 -c ./node_modules/react-native-hybrid-storybook/src/native/storybook"
+    "storybook-native": "node ./node_modules/@storybook/react-native/dist/bin/storybook-start.js -p 7007 -c ./node_modules/react-native-hybrid-storybook/src/native/storybook",
+    "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9013 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",

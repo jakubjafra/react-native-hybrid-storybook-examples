@@ -12,6 +12,7 @@
   "scripts": {
     "storybook-web": "start-storybook -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
     "storybook-web-build": "build-storybook -c ./node_modules/react-native-hybrid-storybook/src/web/storybook -o output",
+    "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9012 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test",
     "start": "exp r"
   },
   "jest": {
