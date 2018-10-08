@@ -1,16 +1,16 @@
 import React from 'react';
 import { storiesOf } from 'react-native-hybrid-storybook';
-import { TouchableOpacity } from 'react-native';
 import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs/react';
 
+import { TouchableOpacity } from 'react-native';
 import { Button } from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 storiesOf('Button', module)
     .add('knobs & actions', () => (
         <Button
-            TouchableComponent={TouchableOpacity} // Platform.OS == 'web' so it uses not-yet-implemented TouchableNativeFeedback
+            TouchableComponent={TouchableOpacity} // TODO: FIXME Platform.OS == 'web' so it uses not-yet-implemented TouchableNativeFeedback
             title={text('title', 'Test button')}
             onPress={action('onPress')}
         />

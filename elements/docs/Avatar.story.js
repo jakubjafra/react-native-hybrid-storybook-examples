@@ -1,7 +1,8 @@
 import React from 'react';
 import { storiesOf } from 'react-native-hybrid-storybook';
-import { Avatar } from 'react-native-elements';
 import { text } from '@storybook/addon-knobs/react';
+
+import { Avatar } from 'react-native-elements';
 
 storiesOf('Avatar', module)
     .add('from official doc', () => (
