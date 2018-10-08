@@ -1,5 +1,5 @@
 {
-  "name": "empty-project-template",
+  "name": "react-native-elements-docs",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
@@ -7,7 +7,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook"
+    "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
+    "storybook-native-device": "REACT_NATIVE_STORYBOOK=true expo start",
+    "storybook-native": "node ./node_modules/@storybook/react-native/dist/bin/storybook-start.js -p 7007 -c ./node_modules/react-native-hybrid-storybook/src/native/storybook",
+    "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9010 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test"
   },
   "dependencies": {
     "expo": "^30.0.1",
