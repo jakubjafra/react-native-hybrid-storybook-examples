@@ -36,11 +36,13 @@ storiesOf('Button', module)
 
             <Button
                 TouchableComponent={TouchableOpacity}
-                icon={{
-                    name: 'arrow-right',
-                    size: 15,
-                    color: 'white'
-                }}
+                icon={
+                    <Icon
+                        name='arrow-right'
+                        size={15}
+                        color='white'
+                    />
+                }
                 title='BUTTON WITH ICON OBJECT'
             />
 

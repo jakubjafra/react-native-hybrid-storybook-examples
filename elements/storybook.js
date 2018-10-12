@@ -1,3 +1,5 @@
+import { StorybookUI, loadFont } from 'react-native-hybrid-storybook';
+
 // Unfortunately Metro bundler does not support wildcard require, so you need to maintain this list:
 import './docs/Avatar.story.js';
 import './docs/Badge.story.js';
@@ -19,4 +21,10 @@ import './docs/SocialIcon.story.js';
 import './docs/Text.story.js';
 import './docs/Tile.story.js';
 
-export { StorybookUI as default } from 'react-native-hybrid-storybook';
+// Fonts
+import fontAwesome from 'react-native-vector-icons/Fonts/FontAwesome.ttf';
+import materialIcons from 'react-native-vector-icons/Fonts/MaterialIcons.ttf';
+loadFont(fontAwesome, 'FontAwesome');
+loadFont(materialIcons, 'Material Icons');
+
+export default StorybookUI;
