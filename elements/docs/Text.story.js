@@ -7,9 +7,9 @@ import { Text } from 'react-native-elements';
 storiesOf('Text', module)
     .add('from official doc', () => (
         <React.Fragment>
-            <Text h1>Heading 1</Text>
-            <Text h2>Heading 2</Text>
-            <Text h3>Heading 3</Text>
-            <Text h4>Heading 4</Text>
+            <Text h1>Heading 1</Text><br/>
+            <Text h2>Heading 2</Text><br/>
+            <Text h3>Heading 3</Text><br/>
+            <Text h4>Heading 4</Text><br/>
         </React.Fragment>
     ));

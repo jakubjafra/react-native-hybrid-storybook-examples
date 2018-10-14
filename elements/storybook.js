@@ -24,7 +24,11 @@ import './docs/Tile.story.js';
 // Fonts
 import fontAwesome from 'react-native-vector-icons/Fonts/FontAwesome.ttf';
 import materialIcons from 'react-native-vector-icons/Fonts/MaterialIcons.ttf';
+import evilIcons from 'react-native-vector-icons/Fonts/EvilIcons.ttf';
+import ionicons from 'react-native-vector-icons/Fonts/Ionicons.ttf';
 loadFont(fontAwesome, 'FontAwesome');
 loadFont(materialIcons, 'Material Icons');
+loadFont(evilIcons, 'EvilIcons');
+loadFont(ionicons, 'Ionicons');
 
 export default StorybookUI;
