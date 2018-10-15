@@ -12,6 +12,9 @@ Real world examples
 #### `elements` (react-native-elements)
 Web documentation for [`react-native-elements`](https://github.com/react-native-training/react-native-elements) component library. There is [working online version of this lib](https://khronedev.github.io/react-native-hybrid-storybook-examples/elements/output/index.html).
 
+#### `typography` (react-native-typography)
+Web documentation for [`react-native-typography`](https://github.com/hectahertz/react-native-typography) style library. There is [working online version of this lib](https://khronedev.github.io/react-native-hybrid-storybook-examples/typography/output/index.html).
+
 Integration examples
 --------------------
 
