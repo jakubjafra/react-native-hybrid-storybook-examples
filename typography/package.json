@@ -1,5 +1,5 @@
 {
-  "name": "react-native-elements-docs",
+  "name": "react-native-typography-docs",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
@@ -10,22 +10,21 @@
     "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
     "storybook-native-device": "REACT_NATIVE_STORYBOOK=true expo start",
     "storybook-native": "node ./node_modules/@storybook/react-native/dist/bin/storybook-start.js -p 7007 -c ./node_modules/react-native-hybrid-storybook/src/native/storybook",
-    "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9010 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test"
+    "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9014 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test"
   },
   "dependencies": {
     "expo": "^30.0.1",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
-    "react-native-elements": "^1.0.0-beta5",
-    "react-native-hybrid-storybook": "../react-native-hybrid-storybook/"
+    "react-native-hybrid-storybook": "../react-native-hybrid-storybook/",
+    "react-native-typography": "^1.4.0"
   },
   "react-native-hybrid-storybook": {
     "magic": {
-      "overwritePlatform": "ios",
       "autoResolveStories": true
     },
     "addonOptions": {
-      "name": "Elements"
+      "name": "Typography"
     }
   }
 }
