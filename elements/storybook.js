@@ -22,10 +22,10 @@ import './docs/Text.story.js';
 import './docs/Tile.story.js';
 
 // Fonts
-import fontAwesome from 'react-native-vector-icons/Fonts/FontAwesome.ttf';
-import materialIcons from 'react-native-vector-icons/Fonts/MaterialIcons.ttf';
-import evilIcons from 'react-native-vector-icons/Fonts/EvilIcons.ttf';
-import ionicons from 'react-native-vector-icons/Fonts/Ionicons.ttf';
+import fontAwesome from '@expo/vector-icons/fonts/FontAwesome.ttf';
+import materialIcons from '@expo/vector-icons/fonts/MaterialIcons.ttf';
+import evilIcons from '@expo/vector-icons/fonts/EvilIcons.ttf';
+import ionicons from '@expo/vector-icons/fonts/Ionicons.ttf';
 loadFont(fontAwesome, 'FontAwesome');
 loadFont(materialIcons, 'Material Icons');
 loadFont(evilIcons, 'EvilIcons');
