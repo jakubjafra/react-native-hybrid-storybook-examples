@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
-    "test": "jest"
+    "test": "jest",
+    "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9015 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test"
   },
   "dependencies": {
     "react": "16.6.0-alpha.8af6728",
