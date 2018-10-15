@@ -1,0 +1,30 @@
+{
+  "name": "minimalrninit",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
+    "test": "jest",
+    "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9015 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test"
+  },
+  "dependencies": {
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.3",
+    "react-native-hybrid-storybook": "../react-native-hybrid-storybook/"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "react-native-hybrid-storybook": {
+    "magic": {
+      "autoResolveStories": true
+    }
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
