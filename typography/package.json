@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "storybook-web": "node ./node_modules/@storybook/react/dist/server/index.js -p 9001 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook",
+    "storybook-web-build": "build-storybook -c ./node_modules/react-native-hybrid-storybook/src/web/storybook -o output",
     "storybook-native-device": "REACT_NATIVE_STORYBOOK=true expo start",
     "storybook-native": "node ./node_modules/@storybook/react-native/dist/bin/storybook-start.js -p 7007 -c ./node_modules/react-native-hybrid-storybook/src/native/storybook",
     "internal-compile-smoketest": "node ./node_modules/@storybook/react/dist/server/index.js -p 9014 -c ./node_modules/react-native-hybrid-storybook/src/web/storybook --smoke-test"
