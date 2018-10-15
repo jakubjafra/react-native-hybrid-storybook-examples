@@ -21,8 +21,7 @@
   },
   "react-native-hybrid-storybook": {
     "magic": {
-      "overwritePlatform": "ios",
-      "autoResolveStories": true
+      "overwritePlatform": "ios"
     },
     "addonOptions": {
       "name": "Elements"

@@ -20,9 +20,6 @@
     "react-native-typography": "^1.4.0"
   },
   "react-native-hybrid-storybook": {
-    "magic": {
-      "autoResolveStories": true
-    },
     "addonOptions": {
       "name": "Typography"
     }

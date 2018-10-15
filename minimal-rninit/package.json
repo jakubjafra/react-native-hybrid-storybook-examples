@@ -19,11 +19,6 @@
     "metro-react-native-babel-preset": "0.48.1",
     "react-test-renderer": "16.6.0-alpha.8af6728"
   },
-  "react-native-hybrid-storybook": {
-    "magic": {
-      "autoResolveStories": true
-    }
-  },
   "jest": {
     "preset": "react-native"
   }

@@ -18,11 +18,6 @@
   "jest": {
     "preset": "jest-expo"
   },
-  "react-native-hybrid-storybook": {
-    "magic": {
-      "autoResolveStories": true
-    }
-  },
   "dependencies": {
     "expo": "^30.0.1",
     "react": "^16.5.2",
